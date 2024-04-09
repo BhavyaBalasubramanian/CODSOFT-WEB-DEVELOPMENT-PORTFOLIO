@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>This is where you can talk about yourself and your background.</p>
+    </section>
+    <section id="services">
+        <h2>Services</h2>
+        <div class="card">
+            <div class="servicesIcon">
+                <i class="fas fa-code"></i>
+            </div>
+            <div class="servicesText">
+                <h3 class="card-title">Web Development</h3>
+                <p>I can create responsive websites using HTML, CSS, and JavaScript.</p>
+            </div>
+        </div>
+        <!-- Add more services here -->
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="card">
+            <div class="portfolioImage">
+                <img src="image1.jpg" alt="Project 1">
+            </div>
+            <div class="portfolioText">
+                <h3 class="card-title">Project 1</h3>
+                <p>This is a brief description of Project 1.</p>
+            </div>
+        </div>
+        <!-- Add more portfolio projects here -->
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div id="googleMap"></div>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea placeholder="Project Details" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer id="footer">
+        <div class="social-icons mt-4">
+            <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
